@@ -49,7 +49,8 @@ get_header();
 
       $aanv_profile_args = array(
         'post_type'       => 'aanv_profile',
-        'order'           => 'DESC',
+        'orderby'     => 'title',
+        'order'           => 'ASC',
         'posts_per_page'  => '-1',
         );
 
