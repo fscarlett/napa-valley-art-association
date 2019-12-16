@@ -1,0 +1,44 @@
+
+
+
+
+.artgallery-callout {
+	border-top: 1px solid #fff;
+	padding-top: 15px;
+	
+	.artgallery-callout-card {
+		padding: 10px;
+		
+		img {
+			max-width: 100%;
+		}
+		h2 {
+			color: $art-gallery-brand;
+			text-transform: uppercase;
+			margin: 10px 0;
+			font-size: 2rem;
+		}
+		p {
+			line-height: 1.5;
+			span {
+				font-weight: bold;
+				font-style: italic;
+			}
+		}
+	}
+	@media(min-width: 768px) {
+		.ag-callout-img-wrapper {
+			height: 280px;
+		}
+	}
+	@media(min-width: 992px) {
+		.ag-callout-img-wrapper {
+			height: 380px;
+		}
+	}
+	@media(min-width: 1200px) {
+		.ag-callout-img-wrapper {
+			height: 420px;
+		}
+	}
+}

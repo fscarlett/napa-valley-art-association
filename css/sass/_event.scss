@@ -1,0 +1,70 @@
+body.page-template-page-events {
+
+	.event-card {
+		border: 1px solid #555;
+		border-radius: 6px;
+		padding: 20px 10px 20px 0; 
+		margin-bottom: 20px;
+
+		.event-date {
+			font-weight: bold;
+		}
+
+		.event-time {
+			font-weight: bold;
+			font-style: italic;
+		}
+
+		.event-location {
+			font-weight: bold;
+		}
+	}
+
+	.event-img-wrapper {
+		height: 200px;
+		overflow: hidden;  
+		vertical-align: center;
+		img {
+			vertical-align: center;
+		}
+
+	}
+
+	h2 {
+		margin-bottom: 10px;
+	}
+}
+
+
+body.single-aanv_event {
+	h1 {
+		color: $brand-color;
+	}
+	.event-info-wrapper {
+		margin-bottom: 22px;
+		border-bottom: 1px solid #bbb;
+		padding-bottom: 15px;
+	}
+
+	.single-event-date {
+		font-weight: bold;
+		display: inline-block;
+		margin-right: 25px;
+		font-size: 2rem;
+	}
+
+	.single-event-time {
+		font-weight: normal;
+		font-style: italic; 
+		display: inline-block;
+		margin-right: 25px;
+		font-size: 2rem;
+	}
+
+	.single-event-location {
+		font-weight: bold;
+		display: inline-block;
+		margin-right: 25px;
+		font-size: 2rem;
+	}
+}

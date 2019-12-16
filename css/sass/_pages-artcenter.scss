@@ -1,0 +1,29 @@
+
+
+
+
+.artcenter-callout {
+	border-top: 1px solid #fff;
+	padding-top: 15px;
+	
+	.artcenter-callout-card {
+		padding: 10px;
+		
+		img {
+			max-width: 100%;
+		}
+		h2 {
+			color: $art-center-brand;
+			text-transform: uppercase;
+			margin: 10px 0;
+			font-size: 2rem;
+		}
+		p {
+			line-height: 1.5;
+			span {
+				font-weight: bold;
+				font-style: italic;
+			}
+		}
+	}
+}

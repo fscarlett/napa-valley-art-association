@@ -1,0 +1,90 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  // this defines what 1rem is (based on 16px)
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+  // color: inherit;
+  &:visited {
+    color: inherit;
+  }
+}
+
+li {
+  // list-style-type: none;
+}
+
+.button {
+  display: inline-block;
+  color: #fff !important;
+  background: $button;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  &:hover {
+    background: $button-hover;
+  }
+}
+
+#mepr_loginform .submit input {
+  padding: 15px 25px;
+  font-size: 2rem;
+  background-color: #393;
+  color: #FFF;
+  border-radius: 6px;
+  &:hover {
+    background-color: #5a5;
+  }
+}
+
+.login-button-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    background: rgb(217, 110, 42);
+    text-align: center;
+    font-size: 14px;
+    height: 18px;
+    padding: 10px 17px 33px 17px;
+    border-bottom-left-radius: 4px;
+
+  a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    &:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+    &:visited {
+      color: #fff;
+    }
+  }
+}
+
+.search-wrapper {
+  padding: 0 10px 40px;
+}
+
+/* ----   Utilities ----- */
+.mt-40 {
+  margin-top: 40px;
+}
+
+

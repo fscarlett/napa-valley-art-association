@@ -1,0 +1,68 @@
+body.page-template-default,
+body.page-template-page-home,
+body.page-template-page-members, 
+body.page-template-page-mediums, 
+body.page-template-page-members-mediums, 
+body.page-template-page-news,
+body.page-template-page-opportunities,
+body.page-template-page-member-news,
+body.single-aanv_profile 
+ {
+  background: $brand-color url('../images/nvaa-bg-main-kraken.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: scroll;
+}
+
+body.page-template-page-artgallery,
+body.page-template-page-gallery-artists,
+body.page-template-page-artgallery-news,
+body.page-template-page-artgallery-home
+ {
+  background: $art-gallery-brand url('../images/nvaa-bg-artgallery-kraken.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: scroll;
+}
+
+body.page-template-page-artcenter,
+body.page-template-page-artcenter-home  
+{
+  background: $art-center-brand url('../images/nvaa-bg-artcenter-kraken.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: scroll;
+}
+
+body.page-template-page-openstudios,
+body.page-template-page-open-studios-members,
+body.page-template-page-openstudios-mediums,
+body.page-template-page-openstudios-members-mediums,
+body.page-template-page-open-studios-members-venues,
+body.page-template-page-openstudios-home 
+{
+  background: $open-studios-brand url('../images/nvaa-bg-openstudios.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: scroll;
+}
+
+#primary {
+  background-color: rgba(255,255,255,0.93);
+  padding-top: 50px;
+  padding-bottom: 20px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+
+}
+
+@media (min-width: 1200px){
+  #primary {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}

@@ -1,0 +1,43 @@
+body {
+  color: $text-color-normal;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+ {
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, sans-serif;
+  color: $text-color-dark;
+  font-weight: bold;
+}
+
+p {
+  line-height: 1.7;
+}
+
+.content-area p {
+  margin-bottom: 2rem;
+}
+
+a {
+  color: $brand-color;
+  &:visited {
+    color: $brand-color;
+  }
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700; 
+  margin-bottom: 30px;
+}
+h2 {
+  margin-bottom: 40px;
+}
+

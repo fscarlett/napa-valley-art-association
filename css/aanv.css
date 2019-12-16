@@ -1,0 +1,581 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  font-size: 1.6rem; }
+
+a {
+  text-decoration: none; }
+  a:visited {
+    color: inherit; }
+
+.button {
+  display: inline-block;
+  color: #fff !important;
+  background: #30B0D5;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin-bottom: 15px; }
+  .button:hover {
+    background: #5BC0DE; }
+
+#mepr_loginform .submit input {
+  padding: 15px 25px;
+  font-size: 2rem;
+  background-color: #393;
+  color: #FFF;
+  border-radius: 6px; }
+  #mepr_loginform .submit input:hover {
+    background-color: #5a5; }
+
+.login-button-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  background: #d96e2a;
+  text-align: center;
+  font-size: 14px;
+  height: 18px;
+  padding: 10px 17px 33px 17px;
+  border-bottom-left-radius: 4px; }
+  .login-button-container a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold; }
+    .login-button-container a:hover {
+      color: #fff;
+      text-decoration: underline; }
+    .login-button-container a:visited {
+      color: #fff; }
+
+.search-wrapper {
+  padding: 0 10px 40px; }
+
+/* ----   Utilities ----- */
+.mt-40 {
+  margin-top: 40px; }
+
+body {
+  color: #333;
+  font-family: 'Open Sans', Helvetica, sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #231f20;
+  font-weight: bold; }
+
+p {
+  line-height: 1.7; }
+
+.content-area p {
+  margin-bottom: 2rem; }
+
+a {
+  color: #428bca; }
+  a:visited {
+    color: #428bca; }
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 30px; }
+
+h2 {
+  margin-bottom: 40px; }
+
+.site-header {
+  background-color: #fff;
+  padding: 0; }
+
+.site-branding {
+  padding: 20px 30px 10px;
+  max-width: 360px;
+  margin: 0 auto; }
+  @media (min-width: 992px) {
+    .site-branding {
+      float: left;
+      border-right: 1px solid #ddd; } }
+
+.extra-nav-wrapper {
+  text-align: center;
+  padding: 20px 5px; }
+  .extra-nav-wrapper p {
+    text-transform: uppercase;
+    color: #8e8f93;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 20px; }
+  @media (min-width: 992px) {
+    .extra-nav-wrapper {
+      padding: 0; } }
+
+.extra-nav img {
+  max-width: 150px;
+  margin: auto 20px; }
+
+.main-navigation {
+  float: none;
+  width: auto;
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd; }
+
+#primary-menu li,
+#artgallery-menu li,
+#artcenter-menu li,
+#openstudios-menu li {
+  margin-left: 20px; }
+  @media (max-width: 1200px) {
+    #primary-menu li,
+    #artgallery-menu li,
+    #artcenter-menu li,
+    #openstudios-menu li {
+      margin-bottom: 15px; } }
+  @media (max-width: 767px) {
+    #primary-menu li,
+    #artgallery-menu li,
+    #artcenter-menu li,
+    #openstudios-menu li {
+      float: none;
+      margin-bottom: 10px; } }
+
+#primary-menu li a,
+#artgallery-menu li a,
+#artcenter-menu li a,
+#openstudios-menu li a {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #231f20;
+  font-family: Montserrat, 'Helvetica Neue', Helvetica, sans-serif; }
+
+#primary-menu li ul,
+#artgallery-menu li ul,
+#artcenter-menu li ul,
+#openstudios-menu li ul {
+  background-color: #fff;
+  padding: 10px; }
+
+#primary-menu li ul li,
+#artgallery-menu li ul li,
+#artcenter-menu li ul li,
+#openstudios-menu li ul li {
+  padding-bottom: 10px; }
+
+#primary-menu li ul li a,
+#artgallery-menu li ul li a,
+#artcenter-menu li ul li a,
+#openstudios-menu li ul li a {
+  font-weight: normal;
+  text-transform: initial; }
+
+button.menu-toggle {
+  background: #92dbfa;
+  color: #000;
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  height: 45px; }
+  @media (max-width: 360px) {
+    button.menu-toggle {
+      font-size: 1.4rem;
+      padding: 10px; } }
+
+.site-footer {
+  text-align: center;
+  padding: 40px 10px;
+  margin: 10px auto; }
+
+.content-footer {
+  padding: 30px 5px 0;
+  text-align: center;
+  border-top: 1px solid #fff; }
+
+.site-footer .site-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center; }
+  .site-footer .site-info img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px; }
+  .site-footer .site-info p {
+    padding: 6px 15px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 5px 10px #000;
+    border-radius: 4px; }
+
+.social-widget {
+  position: fixed;
+  width: 50px;
+  z-index: 99999;
+  top: 25%;
+  right: -5px;
+  display: flex;
+  flex-direction: column; }
+  .social-widget .soc-wrapper a {
+    width: 45px;
+    text-align: center;
+    display: block;
+    width: 45px;
+    height: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+  .social-widget .soc-facebook a {
+    background: none repeat scroll 0 0 #305891; }
+  .social-widget .soc-twitter a {
+    background: none repeat scroll 0 0 #2CA8D2; }
+    .social-widget .soc-twitter a img {
+      padding-top: 4px; }
+  .social-widget .soc-pinterest a {
+    background: none repeat scroll 0 0 #ca2027; }
+    .social-widget .soc-pinterest a img {
+      padding-top: 4px; }
+
+.home #primary {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0; }
+
+.home .home-callout {
+  border-top: 1px solid #fff;
+  padding-top: 15px;
+  padding-left: 40px;
+  padding-right: 40px; }
+
+.home .home-callout-card {
+  padding: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+  .home .home-callout-card h2 {
+    color: #428bca;
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-size: 2rem;
+    height: 5rem; }
+  .home .home-callout-card p {
+    line-height: 1.5; }
+
+body.page-template-default,
+body.page-template-page-home,
+body.page-template-page-members,
+body.page-template-page-mediums,
+body.page-template-page-members-mediums,
+body.page-template-page-news,
+body.page-template-page-opportunities,
+body.page-template-page-member-news,
+body.single-aanv_profile {
+  background: #428bca url("../images/nvaa-bg-main-kraken.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: scroll; }
+
+body.page-template-page-artgallery,
+body.page-template-page-gallery-artists,
+body.page-template-page-artgallery-news,
+body.page-template-page-artgallery-home {
+  background: #663399 url("../images/nvaa-bg-artgallery-kraken.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: scroll; }
+
+body.page-template-page-artcenter,
+body.page-template-page-artcenter-home {
+  background: #a52c32 url("../images/nvaa-bg-artcenter-kraken.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: scroll; }
+
+body.page-template-page-openstudios,
+body.page-template-page-open-studios-members,
+body.page-template-page-openstudios-mediums,
+body.page-template-page-openstudios-members-mediums,
+body.page-template-page-open-studios-members-venues,
+body.page-template-page-openstudios-home {
+  background: #E5843D url("../images/nvaa-bg-openstudios.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: scroll; }
+
+#primary {
+  background-color: rgba(255, 255, 255, 0.93);
+  padding-top: 50px;
+  padding-bottom: 20px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px; }
+
+@media (min-width: 1200px) {
+  #primary {
+    padding-left: 40px;
+    padding-right: 40px; } }
+
+.artgallery-callout {
+  border-top: 1px solid #fff;
+  padding-top: 15px; }
+  .artgallery-callout .artgallery-callout-card {
+    padding: 10px; }
+    .artgallery-callout .artgallery-callout-card img {
+      max-width: 100%; }
+    .artgallery-callout .artgallery-callout-card h2 {
+      color: #663399;
+      text-transform: uppercase;
+      margin: 10px 0;
+      font-size: 2rem; }
+    .artgallery-callout .artgallery-callout-card p {
+      line-height: 1.5; }
+      .artgallery-callout .artgallery-callout-card p span {
+        font-weight: bold;
+        font-style: italic; }
+  @media (min-width: 768px) {
+    .artgallery-callout .ag-callout-img-wrapper {
+      height: 280px; } }
+  @media (min-width: 992px) {
+    .artgallery-callout .ag-callout-img-wrapper {
+      height: 380px; } }
+  @media (min-width: 1200px) {
+    .artgallery-callout .ag-callout-img-wrapper {
+      height: 420px; } }
+
+.artcenter-callout {
+  border-top: 1px solid #fff;
+  padding-top: 15px; }
+  .artcenter-callout .artcenter-callout-card {
+    padding: 10px; }
+    .artcenter-callout .artcenter-callout-card img {
+      max-width: 100%; }
+    .artcenter-callout .artcenter-callout-card h2 {
+      color: #a52c32;
+      text-transform: uppercase;
+      margin: 10px 0;
+      font-size: 2rem; }
+    .artcenter-callout .artcenter-callout-card p {
+      line-height: 1.5; }
+      .artcenter-callout .artcenter-callout-card p span {
+        font-weight: bold;
+        font-style: italic; }
+
+.page-template-page-openstudios-home #primary {
+  padding-top: 0; }
+
+.openstudios-callout {
+  border-top: 1px solid #fff;
+  padding-top: 15px; }
+  .openstudios-callout .openstudios-callout-card {
+    padding: 10px; }
+    .openstudios-callout .openstudios-callout-card img {
+      max-width: 100%;
+      width: 100%; }
+    .openstudios-callout .openstudios-callout-card h2 {
+      color: #E5843D;
+      text-transform: uppercase;
+      margin: 10px 0;
+      font-size: 2rem; }
+      @media (min-width: 767px) {
+        .openstudios-callout .openstudios-callout-card h2 {
+          min-height: 48px; } }
+    .openstudios-callout .openstudios-callout-card p {
+      line-height: 1.5; }
+      .openstudios-callout .openstudios-callout-card p span {
+        font-weight: bold;
+        font-style: italic; }
+
+.aanv-blog-img-wrapper {
+  width: 100%;
+  min-height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 10px; }
+  .aanv-blog-img-wrapper img {
+    width: 100%; }
+  @media (min-width: 768px) {
+    .aanv-blog-img-wrapper {
+      height: 20vw; } }
+  @media (max-width: 767px) {
+    .aanv-blog-img-wrapper {
+      height: 90vw; } }
+
+.aanv-blog-copy-card {
+  margin-bottom: 50px; }
+
+body.single .has-post-thumbnail .post-thumbnail {
+  width: 60vh;
+  float: left;
+  padding: 20px 25px 20px 0; }
+
+.aanv-blog-meta {
+  font-style: italic;
+  text-transform: uppercase; }
+
+body.single-aanv_profile #primary {
+  padding-bottom: 50px;
+  background-color: rgba(255, 255, 255, 0.5); }
+  body.single-aanv_profile #primary h2 {
+    font-size: 1.9rem;
+    margin-bottom: 20px; }
+  body.single-aanv_profile #primary h3 {
+    font-size: 1.8rem;
+    margin-bottom: 5px; }
+
+body.single-aanv_profile .gallery-wrapper ul {
+  margin: 0; }
+  body.single-aanv_profile .gallery-wrapper ul li.profile_gallery_card {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px; }
+    body.single-aanv_profile .gallery-wrapper ul li.profile_gallery_card img {
+      width: auto;
+      height: 140px;
+      border: 4px solid #fff;
+      margin-right: 12px; }
+    body.single-aanv_profile .gallery-wrapper ul li.profile_gallery_card p {
+      padding: 0 6px;
+      font-size: 1.4rem; }
+
+body.single-aanv_profile .avatar-wrapper {
+  max-width: 90%; }
+  body.single-aanv_profile .avatar-wrapper img {
+    width: 100%;
+    height: auto; }
+
+body.single-aanv_profile .aanv-profile-website {
+  font-size: 1.6rem; }
+
+body.page-template-page-members #primary,
+body.page-template-page-mediums #primary,
+body.page-template-page-members-mediums #primary,
+body.page-template-page-gallery-artists #primary,
+body.page-template-page-open-studios-members #primary,
+body.page-template-page-openstudios-mediums #primary,
+body.page-template-page-openstudios-members-mediums #primary,
+body.page-template-page-open-studios-members-venues #primary {
+  background-color: #ccc; }
+
+body.page-template-page-members .members,
+body.page-template-page-mediums .members,
+body.page-template-page-members-mediums .members,
+body.page-template-page-gallery-artists .members,
+body.page-template-page-open-studios-members .members,
+body.page-template-page-openstudios-mediums .members,
+body.page-template-page-openstudios-members-mediums .members,
+body.page-template-page-open-studios-members-venues .members {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start; }
+
+body.page-template-page-members .artist-card,
+body.page-template-page-mediums .artist-card,
+body.page-template-page-members-mediums .artist-card,
+body.page-template-page-gallery-artists .artist-card,
+body.page-template-page-open-studios-members .artist-card,
+body.page-template-page-openstudios-mediums .artist-card,
+body.page-template-page-openstudios-members-mediums .artist-card,
+body.page-template-page-open-studios-members-venues .artist-card {
+  display: inline-block;
+  height: 200px;
+  margin: 10px;
+  text-align: center; }
+  body.page-template-page-members .artist-card .photo-wrapper,
+  body.page-template-page-mediums .artist-card .photo-wrapper,
+  body.page-template-page-members-mediums .artist-card .photo-wrapper,
+  body.page-template-page-gallery-artists .artist-card .photo-wrapper,
+  body.page-template-page-open-studios-members .artist-card .photo-wrapper,
+  body.page-template-page-openstudios-mediums .artist-card .photo-wrapper,
+  body.page-template-page-openstudios-members-mediums .artist-card .photo-wrapper,
+  body.page-template-page-open-studios-members-venues .artist-card .photo-wrapper {
+    height: 170px;
+    border: 2px solid #fff;
+    border-radius: 4px; }
+    body.page-template-page-members .artist-card .photo-wrapper img,
+    body.page-template-page-mediums .artist-card .photo-wrapper img,
+    body.page-template-page-members-mediums .artist-card .photo-wrapper img,
+    body.page-template-page-gallery-artists .artist-card .photo-wrapper img,
+    body.page-template-page-open-studios-members .artist-card .photo-wrapper img,
+    body.page-template-page-openstudios-mediums .artist-card .photo-wrapper img,
+    body.page-template-page-openstudios-members-mediums .artist-card .photo-wrapper img,
+    body.page-template-page-open-studios-members-venues .artist-card .photo-wrapper img {
+      height: 100%; }
+
+@media (max-width: 769px) {
+  body.page-template-page-mediums .artist-card .photo-wrapper,
+  body.page-template-page-openstudios-mediums .artist-card .photo-wrapper,
+  body.page-template-page-openstudios-members-mediums .artist-card .photo-wrapper {
+    height: 130px; } }
+
+body.page-template-page-events .event-card {
+  border: 1px solid #555;
+  border-radius: 6px;
+  padding: 20px 10px 20px 0;
+  margin-bottom: 20px; }
+  body.page-template-page-events .event-card .event-date {
+    font-weight: bold; }
+  body.page-template-page-events .event-card .event-time {
+    font-weight: bold;
+    font-style: italic; }
+  body.page-template-page-events .event-card .event-location {
+    font-weight: bold; }
+
+body.page-template-page-events .event-img-wrapper {
+  height: 200px;
+  overflow: hidden;
+  vertical-align: center; }
+  body.page-template-page-events .event-img-wrapper img {
+    vertical-align: center; }
+
+body.page-template-page-events h2 {
+  margin-bottom: 10px; }
+
+body.single-aanv_event h1 {
+  color: #428bca; }
+
+body.single-aanv_event .event-info-wrapper {
+  margin-bottom: 22px;
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 15px; }
+
+body.single-aanv_event .single-event-date {
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 25px;
+  font-size: 2rem; }
+
+body.single-aanv_event .single-event-time {
+  font-weight: normal;
+  font-style: italic;
+  display: inline-block;
+  margin-right: 25px;
+  font-size: 2rem; }
+
+body.single-aanv_event .single-event-location {
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 25px;
+  font-size: 2rem; }
+
+body.wp-admin .mepr-checkboxes-field .mepr-checkboxes-field-row {
+  margin-right: 25px;
+  display: inline-block; }

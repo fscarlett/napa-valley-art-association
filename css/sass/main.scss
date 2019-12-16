@@ -1,0 +1,23 @@
+// @import 'abstracts/functions';
+// @import 'abstracts/mixins';
+@import 'variables';
+
+// @import 'base/animations';
+@import 'base';
+@import 'typography';
+
+
+@import 'header';
+@import 'footer';
+
+@import 'home';
+@import 'page';
+@import 'pages-artgallery'; 
+@import 'pages-artcenter'; 
+@import 'pages-openstudios'; 
+@import 'blog';
+
+
+@import 'profile';
+@import 'event'; 
+@import 'admin';

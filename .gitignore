@@ -1,0 +1,11 @@
+.
+..
+.DS_Store
+ehthumbs.db
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+*.log
+*.sql
+*.sqlite
+/images

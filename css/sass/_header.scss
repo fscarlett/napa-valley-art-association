@@ -1,0 +1,115 @@
+.site-header {
+  background-color: #fff;
+  padding: 0;
+}
+
+.site-branding {
+  padding: 20px 30px 10px;
+  max-width: 360px;
+  margin: 0 auto;
+  @media(min-width:992px){
+    float: left;
+    border-right: 1px solid $card-border-color;   
+  }
+}
+
+.extra-nav-wrapper {
+  text-align: center;
+  padding: 20px 5px;
+  p {
+    text-transform: uppercase;
+    color: $text-color-light;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+  @media(min-width: 992px){
+    padding: 0;
+  }
+}
+
+.extra-nav {
+  img {
+    max-width: 150px;
+    margin: auto 20px;
+  }
+}
+
+
+.main-navigation {
+  float: none;
+  width: auto;
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid $card-border-color;
+  border-bottom: 1px solid $card-border-color;
+}
+
+
+#primary-menu li,
+#artgallery-menu li,
+#artcenter-menu li,
+#openstudios-menu li
+ {
+  margin-left: 20px;
+  @media(max-width: 1200px){
+    margin-bottom: 15px;
+  }
+  @media(max-width: 767px){
+    float: none;
+    margin-bottom: 10px;
+  }
+}
+
+#primary-menu li a,
+#artgallery-menu li a,
+#artcenter-menu li a,
+#openstudios-menu li a
+ {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: $text-color-dark;
+  font-family: Montserrat, 'Helvetica Neue', Helvetica, sans-serif; 
+}
+
+#primary-menu li ul,
+#artgallery-menu li ul,
+#artcenter-menu li ul,
+#openstudios-menu li ul
+{
+  background-color: #fff;
+  padding: 10px;
+}
+
+#primary-menu li ul li,
+#artgallery-menu li ul li,
+#artcenter-menu li ul li,
+#openstudios-menu li ul li
+{
+  padding-bottom: 10px;
+}
+ 
+#primary-menu li ul li a, 
+#artgallery-menu li ul li a,
+#artcenter-menu li ul li a,
+#openstudios-menu li ul li a
+{
+  font-weight: normal;
+  text-transform: initial;
+}
+
+button.menu-toggle {
+  background: #92dbfa;
+  color: #000;
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  height: 45px;
+  @media(max-width: 360px){
+    font-size: 1.4rem;
+    padding: 10px;
+  }
+}
