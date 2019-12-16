@@ -82,6 +82,13 @@ li {
   padding: 0 10px 40px;
 }
 
+input.mepr-submit {
+  padding: 15px 25px;
+  font-size: 20px;
+  background-color: $brand-color;
+  color: #fff;
+}
+
 /* ----   Utilities ----- */
 .mt-40 {
   margin-top: 40px;
