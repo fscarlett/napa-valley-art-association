@@ -15,10 +15,31 @@ get_header('artcenter');
 		while ( have_posts() ) :
 			the_post();
 
-			// get_template_part( 'template-parts/content', 'page' );
 
-			the_content();
+			// the_content();
 			?>
+
+
+			<section class="row artcenter-top">
+				<div class="col-md-6 artcenter-slider-wrapper">
+
+					<?php echo do_shortcode('[metaslider id="155"]'); ?>
+					
+				</div>
+				<div class="col-md-6 artcenter-top-column">
+					<h2><?php the_field('art_center_top_column_title'); ?></h2>
+					<div class="artcenter-text-wrapper">
+						<?php the_field('art_center_top_column_text'); ?>
+					</div>
+				</div>
+			</section>
+
+			<section class="artcenter-middle row">
+				<div class="col-md-12">
+					<p></p>
+					<?php the_field('art_center_middle_section_text') ?>
+				</div>
+			</section>
 
 			<section class="container artcenter-callout">
 				<div class="row">

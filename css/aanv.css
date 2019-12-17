@@ -339,6 +339,9 @@ body.page-template-page-openstudios-home {
     padding-left: 40px;
     padding-right: 40px; } }
 
+.artgallery-top-column h2 {
+  text-align: center; }
+
 .artgallery-callout {
   border-top: 1px solid #fff;
   padding-top: 15px; }
@@ -365,6 +368,13 @@ body.page-template-page-openstudios-home {
   @media (min-width: 1200px) {
     .artgallery-callout .ag-callout-img-wrapper {
       height: 420px; } }
+
+.artcenter-top-column h2 {
+  text-align: center; }
+
+.artcenter-middle {
+  padding-top: 40px;
+  padding-bottom: 40px; }
 
 .artcenter-callout {
   border-top: 1px solid #fff;

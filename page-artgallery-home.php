@@ -15,8 +15,24 @@ get_header('artgallery');
 		while ( have_posts() ) :
 			the_post();
 
-			the_content();
+			// the_content();
 			?>
+
+			<section class="row artgallery-top">
+				<div class="col-md-6 artgallery-slider-wrapper">
+
+					<?php echo do_shortcode('[metaslider id="413"]'); ?>
+					
+				</div>
+				<div class="col-md-6 artgallery-top-column">
+					<h2><?php the_field('artgallery_top_column_title'); ?></h2>
+					<div class="artgallery-text-wrapper">
+						<?php the_field('artgallery_top_column_text'); ?>
+					</div>
+				</div>
+			</section>
+
+			<?php the_content(); ?>
 
 			<section class="row artgallery-callout">
 				<div class="col-md-6 artgallery-callout-card">
