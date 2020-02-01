@@ -482,6 +482,11 @@ body.single-aanv_profile .avatar-wrapper {
 body.single-aanv_profile .aanv-profile-website {
   font-size: 1.6rem; }
 
+body.single-aanv_profile .aanv-profile-address-row {
+  margin-bottom: 20px; }
+  body.single-aanv_profile .aanv-profile-address-row p {
+    margin-bottom: 5px; }
+
 body.page-template-page-members #primary,
 body.page-template-page-mediums #primary,
 body.page-template-page-members-mediums #primary,

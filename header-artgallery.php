@@ -38,7 +38,7 @@
 				<?php  the_custom_logo(); ?>
 
 				<a href="<?php echo esc_url( site_url( '/art-center-home/' ) ); ?>"><img src="<?php site_url(); ?>/wp-content/uploads/2019/06/ACNV-Logo-FINAL.png" alt=""></a>
-				<a href="<?php echo esc_url( site_url( '/open-studios-home/' ) ); ?>"><img src="<?php site_url(); ?>/wp-content/uploads/2019/06/OSNV-Logo-FINAL2.jpg" alt=""></a>
+				<a href="<?php echo esc_url( site_url( '/open-studios-home/' ) ); ?>"><img src="<?php site_url(); ?>/wp-content/uploads/2020/01/OSNV-Logo-FINAL2-CMYK-Transparent-bkgd-300.png" alt=""></a>
 			</div>
 		</div>
 

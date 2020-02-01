@@ -92,6 +92,86 @@ get_header(); ?>
 					</div>
 				</div>
 
+				<!-- begin contact address block -->
+			<!-- 	<?php $contact_address = get_field('contact_address'); ?>
+
+					<?php if ($contact_address['street_address']): ?>
+
+						<div class="row aanv-profile-address-row">
+
+							<div class="col-sm-12">
+
+								<h3>Contact Address</h3>
+
+								<div class="social-media-wrapper">
+										
+									<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+										<p><?php // echo $contact_address['street_address']; ?></p>
+
+										<p><?php // echo $contact_address['street_address_2']; ?></p> 
+
+										<p><?php // echo $contact_address['city']; ?>
+
+										<?php if($contact_address['city']): ?>
+											
+											, <span><?php // echo $contact_address['state']; ?> </span>
+
+										<?php endif; ?>
+
+										<span><?php // echo $contact_address['zip']; ?></span></p> 
+
+										<p><?php // echo $contact_address['phone']; ?></p> 
+
+									</div>
+								</div>
+								
+							</div>
+						</div>
+
+					<?php endif; ?> -->
+					<!-- end contact address block -->
+
+					<!-- begin studio address block -->
+				<?php $studio_address = get_field('studio_address'); ?>
+
+					<?php if ($studio_address['street_address']): ?>
+
+						<div class="row aanv-profile-address-row">
+
+							<div class="col-sm-12">
+
+								<h3>Studio Address</h3>
+
+								<div class="social-media-wrapper">
+										
+									<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+										<p><?php echo $studio_address['street_address']; ?></p>
+
+										<p><?php echo $studio_address['street_address_2']; ?></p> 
+
+										<p><?php echo $studio_address['city']; ?>
+
+										<?php if($studio_address['city']): ?>
+
+											, <span><?php echo $studio_address['state']; ?> </span>
+
+										<?php endif; ?>
+
+										<span><?php echo $studio_address['zip']; ?></span></p> 
+
+										<p><?php echo $studio_address['phone']; ?></p> 
+
+									</div>
+								</div>
+								
+							</div>
+						</div>
+
+					<?php endif; ?>
+					<!-- end studio address block -->
+
 					
 				<?php
 				endwhile; // End of the loop. 
