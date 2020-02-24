@@ -39,7 +39,7 @@
 				<?php 
 				// printf( esc_html__( 'Support provided by the Napa County Board of Supervisors and the Napa County Arts and Culture Committee. Member of the Napa Downtown Merchants Association and Yountville Arts.', 'aanv' ) );
 				?>
-				Support provided by the Napa County Board of Supervisors and the Napa County Arts and Culture Committee. <br> Member of the Napa Downtown Merchants Association and Yountville Arts.
+				Support provided by the Napa County Board of Supervisors and the Napa County Arts and Culture Committee. <br> Member of the Downtown Napa Merchants Association and Yountville Arts.
 
 			</p>
 			

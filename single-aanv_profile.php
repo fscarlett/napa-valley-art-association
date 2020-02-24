@@ -135,17 +135,19 @@ get_header(); ?>
 					<!-- begin studio address block -->
 				<?php $studio_address = get_field('studio_address'); ?>
 
-					<?php if ($studio_address['street_address']): ?>
+					<?php // if ($studio_address['street_address']): ?>
 
 						<div class="row aanv-profile-address-row">
 
 							<div class="col-sm-12">
 
-								<h3>Studio Address</h3>
+								<h3>Studio Info</h3>
 
 								<div class="social-media-wrapper">
 										
 									<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+										<p><?php echo $studio_address['studio_name']; ?></p>
 
 										<p><?php echo $studio_address['street_address']; ?></p>
 
@@ -161,7 +163,11 @@ get_header(); ?>
 
 										<span><?php echo $studio_address['zip']; ?></span></p> 
 
-										<p><?php echo $studio_address['phone']; ?></p> 
+										<?php if($studio_address['phone']): ?>
+
+											<p><?php echo $studio_address['phone']; ?></p> 
+
+										<?php endif; ?>
 
 									</div>
 								</div>
@@ -169,7 +175,7 @@ get_header(); ?>
 							</div>
 						</div>
 
-					<?php endif; ?>
+					<?php // endif; ?>
 					<!-- end studio address block -->
 
 					
