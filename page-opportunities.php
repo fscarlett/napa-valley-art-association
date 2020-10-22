@@ -36,7 +36,7 @@ get_header();
 								'post_type'   		=> 'post',
 								'category_name' 	=> 'artist-opportunities',
 				        'order'           => 'DESC',
-				        'posts_per_page'  => '12'
+				        'posts_per_page'  => '30'
 				        );
 
 							$args = array(

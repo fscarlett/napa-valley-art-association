@@ -36,12 +36,14 @@ get_header('artgallery');
 								'post_type'   		=> 'post',
 								'category_name' 	=> 'art-gallery',
 				        'order'           => 'DESC',
-				        'posts_per_page'  => '12'
+				        'posts_per_page'  => '60'
 				        );
 
 							$args = array(
 								'post_type'   => 'post'
 							);
+
+							$date6monthsago = strtotime('-12 months'); // yes its not 6 months now
 
 				      $aanv_blog = new WP_Query( $aanv_blog_args );
 
@@ -55,9 +57,14 @@ get_header('artgallery');
 
 				        while ( $aanv_blog->have_posts() ) {
 
-				          $aanv_blog->the_post()
+				          $aanv_blog->the_post();
+
+				          global $post;
+
+							 		$aanv_post_date = strtotime( $post->post_date );
 
 
+				          if ( $aanv_post_date > $date6monthsago ) :
 
 				          ?>
 
@@ -76,6 +83,8 @@ get_header('artgallery');
 												<?php the_excerpt(); ?>
 											</div>
 										</div>
+
+									<?php endif; // date conditional ?>
 
 
 				           <?php

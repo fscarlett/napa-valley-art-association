@@ -40,12 +40,15 @@ get_header();
 								'post_type'   		=> 'post',
 								'category_name' 	=> 'art-association-napa-valley-news',
 				        'order'           => 'DESC',
-				        'posts_per_page'  => '12'
+				        'posts_per_page'  => '60'
 				        );
 
 							$args = array(
 								'post_type'   => 'post'
 							);
+
+							$date1yearago = strtotime('-12 months');
+
 
 				      $aanv_blog = new WP_Query( $aanv_blog_args );
 
@@ -59,8 +62,14 @@ get_header();
 
 				        while ( $aanv_blog->have_posts() ) {
 
-				          $aanv_blog->the_post()
+				          $aanv_blog->the_post();
 
+				          global $post;
+
+							 		$aanv_post_date = strtotime( $post->post_date );
+
+
+				          if ( $aanv_post_date > $date1yearago ) :
 
 
 				          ?>
@@ -81,6 +90,9 @@ get_header();
 												<?php the_excerpt(); ?>
 											</div>
 										</div>
+
+									<?php endif; // date conditional ?>
+
 
 
 				           <?php

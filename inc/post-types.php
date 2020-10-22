@@ -6,7 +6,7 @@ function aanv_post_types() {
   $profile_labels = array(
     'name'                => 'Artist Profiles',
     'singular_name'       => 'Artist Profile',
-    'menu_name'           => 'Artist Profiles',
+    'menu_name'           => 'Artist Public Profile',
     'name_admin_bar'      => 'Artist Profile',
     'add_new'             => 'Add New',
     'add_new_item'        => 'Add New Artist Profile',

@@ -40,7 +40,8 @@ function aanv_artmedium_taxonomy() {
 }
 
 /* Participation taxonomy for profile searches */
-add_action( 'init', 'aanv_participation_taxonomy', 0 );
+/* WE ARE NOT USING THIS NOW */
+// add_action( 'init', 'aanv_participation_taxonomy', 0 );
  
 function aanv_participation_taxonomy() {
  

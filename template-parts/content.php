@@ -29,7 +29,20 @@
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php aanv_post_thumbnail(); ?>
+	<?php 
+
+	$aanv_kill_thumbnail = has_category('art-gallery');
+
+		$aanv_this_category = $categories[0]->slug;
+
+			 if ( ! $aanv_kill_thumbnail ) :
+
+		 ?>
+
+			<?php aanv_post_thumbnail(); ?>
+
+		<?php endif; 
+		?>
 
 	<div class="entry-content">
 		<?php
