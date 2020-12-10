@@ -15,7 +15,7 @@
 
 	<div class="social-widget">
 		<div class="soc-wrapper soc-facebook">
-			<a href="https://www.facebook.com/NVART.org" target="_blank" rel="nofollow">
+			<a href="https://www.facebook.com/ARTNV.org" target="_blank" rel="nofollow">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/fb.png" alt="">
 			</a>
 		</div>
