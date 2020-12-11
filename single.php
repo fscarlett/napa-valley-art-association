@@ -7,7 +7,28 @@
  * @package aanv
  */
 
-get_header();
+
+		
+		$aanv_cats = array();
+		foreach (get_the_category($post_id) as $c) {
+			$cat = get_category($c);
+			array_push($aanv_cats, $cat->name);
+		}
+
+
+
+    if( in_array( 'Art Gallery', (array) $aanv_cats) ) {
+
+			get_header('artgallery');
+
+		} else {
+
+			get_header();
+
+		}
+
+		// var_dump($aanv_cats);
+
 ?>
 
 	<div id="primary" class="content-area container">
