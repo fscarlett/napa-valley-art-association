@@ -1,7 +1,7 @@
 Custom WordPress theme for Art Association Napa Valley
 
-Developer: Fox Scarlett foxscarlett.com @foxonthe1  foxontheone --- at --- that g type mail .com
-Agency: West County Media westcountymedia.com
+Developer: Fox Scarlett foxscarlett.com @foxonthe1  foxontheone@gmail.com
+
 
 Based on the underscores base theme by Automattic
 
