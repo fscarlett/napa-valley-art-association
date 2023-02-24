@@ -48,6 +48,7 @@ if ( ! function_exists( 'aanv_setup' ) ) :
 			'menu-artgallery' => esc_html__( 'Art Gallery', 'aanv' ),
 			'menu-artcenter' => esc_html__( 'Art Center', 'aanv' ),
 			'menu-openstudios' => esc_html__( 'Open Studios', 'aanv' ),
+			'menu-clayglass' => esc_html__( 'Clay Glass', 'aanv' ),			
 		) );
 
 		/*
