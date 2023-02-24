@@ -1,0 +1,35 @@
+
+
+.page-template-page-clayglass-home {
+	#primary {
+		padding-top: 0;
+	}
+}
+
+.clayglass-callout {
+	border-top: 1px solid #fff;
+	padding-top: 15px;
+	.clayglass-callout-card {
+		padding: 10px;
+		img {
+			max-width: 100%;
+			width: 100%;
+		}
+		h2 {
+			color: $open-studios-brand;  
+			text-transform: uppercase;
+			margin: 10px 0;
+			font-size: 2rem;
+			@media(min-width: 767px){
+				min-height: 48px;				
+			}
+		}
+		p {
+			line-height: 1.5;
+			span {
+				font-weight: bold;
+				font-style: italic;
+			}
+		}
+	}
+}

@@ -146,18 +146,21 @@ h2 {
 #primary-menu li,
 #artgallery-menu li,
 #artcenter-menu li,
+#clayglass-menu li,
 #openstudios-menu li {
   margin-left: 20px; }
   @media (max-width: 1200px) {
     #primary-menu li,
     #artgallery-menu li,
     #artcenter-menu li,
+    #clayglass-menu li,
     #openstudios-menu li {
       margin-bottom: 15px; } }
   @media (max-width: 767px) {
     #primary-menu li,
     #artgallery-menu li,
     #artcenter-menu li,
+    #clayglass-menu li,
     #openstudios-menu li {
       float: none;
       margin-bottom: 10px; } }
@@ -165,6 +168,7 @@ h2 {
 #primary-menu li a,
 #artgallery-menu li a,
 #artcenter-menu li a,
+#clayglass-menu li a,
 #openstudios-menu li a {
   font-size: 1.4rem;
   text-transform: uppercase;
@@ -175,6 +179,7 @@ h2 {
 #primary-menu li ul,
 #artgallery-menu li ul,
 #artcenter-menu li ul,
+#clayglass-menu li ul,
 #openstudios-menu li ul {
   background-color: #fff;
   padding: 10px; }
@@ -182,12 +187,14 @@ h2 {
 #primary-menu li ul li,
 #artgallery-menu li ul li,
 #artcenter-menu li ul li,
+#clayglass-menu li ul li,
 #openstudios-menu li ul li {
   padding-bottom: 10px; }
 
 #primary-menu li ul li a,
 #artgallery-menu li ul li a,
 #artcenter-menu li ul li a,
+#clayglass-menu li ul li a,
 #openstudios-menu li ul li a {
   font-weight: normal;
   text-transform: initial; }
@@ -327,6 +334,14 @@ body.page-template-page-openstudios-home {
   background-position: center top;
   background-attachment: scroll; }
 
+body.page-template-page-clayglass,
+body.page-template-page-clayglass-home {
+  background: #4F4274 url("../images/nvaa-bg-.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: scroll; }
+
 #primary {
   background-color: rgba(255, 255, 255, 0.93);
   padding-top: 50px;
@@ -416,6 +431,31 @@ body.page-template-page-openstudios-home {
     .openstudios-callout .openstudios-callout-card p {
       line-height: 1.5; }
       .openstudios-callout .openstudios-callout-card p span {
+        font-weight: bold;
+        font-style: italic; }
+
+.page-template-page-clayglass-home #primary {
+  padding-top: 0; }
+
+.clayglass-callout {
+  border-top: 1px solid #fff;
+  padding-top: 15px; }
+  .clayglass-callout .clayglass-callout-card {
+    padding: 10px; }
+    .clayglass-callout .clayglass-callout-card img {
+      max-width: 100%;
+      width: 100%; }
+    .clayglass-callout .clayglass-callout-card h2 {
+      color: #E5843D;
+      text-transform: uppercase;
+      margin: 10px 0;
+      font-size: 2rem; }
+      @media (min-width: 767px) {
+        .clayglass-callout .clayglass-callout-card h2 {
+          min-height: 48px; } }
+    .clayglass-callout .clayglass-callout-card p {
+      line-height: 1.5; }
+      .clayglass-callout .clayglass-callout-card p span {
         font-weight: bold;
         font-style: italic; }
 

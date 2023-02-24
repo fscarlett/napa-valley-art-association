@@ -53,6 +53,16 @@ body.page-template-page-openstudios-home
   background-attachment: scroll;
 }
 
+body.page-template-page-clayglass,
+body.page-template-page-clayglass-home  
+{
+  background: $clay-glass-brand url('../images/nvaa-bg-.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: scroll;
+}
+
 #primary {
   background-color: rgba(255,255,255,0.93);
   padding-top: 50px;
