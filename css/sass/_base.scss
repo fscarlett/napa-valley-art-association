@@ -94,4 +94,9 @@ input.mepr-submit {
   margin-top: 40px;
 }
 
-
+/* =======  BOOTSTRAP OVERRIDES ========== */
+@media (min-width: 992px) {
+  .container {
+      max-width: 1260px;
+  }
+}
