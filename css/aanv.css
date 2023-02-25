@@ -27,7 +27,7 @@ a {
   margin-bottom: 15px; }
   .button:hover {
     background: #5BC0DE; }
-        
+  
 #mepr_loginform .submit input {
   padding: 15px 25px;
   font-size: 2rem;
@@ -340,6 +340,7 @@ body.page-template-page-openstudios-home {
   background-attachment: scroll; }
 
 body.page-template-page-clayglass,
+body.page-template-page-clayglass-news,
 body.page-template-page-clayglass-home {
   background: #4F4274 url("../images/nvaa-bg-clayglass.jpg");
   background-repeat: no-repeat;
@@ -441,6 +442,12 @@ body.page-template-page-clayglass-home {
 
 .page-template-page-clayglass-home #primary {
   padding-top: 0; }
+
+.page-template-page-clayglass-home .cg-slider-home {
+  max-width: 800px; }
+
+.page-template-page-clayglass-home .site-main h1 {
+  margin-top: 40px; }
 
 .clayglass-callout {
   border-top: 1px solid #fff;
