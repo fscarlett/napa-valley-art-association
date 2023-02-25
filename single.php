@@ -17,9 +17,13 @@
 
 
 
-    if( in_array( 'Art Gallery', (array) $aanv_cats) ) {
+	    if( in_array( 'Art Gallery', (array) $aanv_cats) ) {
 
 			get_header('artgallery');
+
+		} else if (  in_array( 'Clay And Glass', (array) $aanv_cats) ) {
+
+			get_header('clayglass');
 
 		} else {
 
