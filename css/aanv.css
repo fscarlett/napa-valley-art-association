@@ -27,7 +27,7 @@ a {
   margin-bottom: 15px; }
   .button:hover {
     background: #5BC0DE; }
- 
+        
 #mepr_loginform .submit input {
   padding: 15px 25px;
   font-size: 2rem;
@@ -74,7 +74,7 @@ input.mepr-submit {
 /* =======  BOOTSTRAP OVERRIDES ========== */
 @media (min-width: 992px) {
   .container {
-    max-width: 1260px; } }
+    max-width: 1160px; } }
 
 body {
   color: #333;

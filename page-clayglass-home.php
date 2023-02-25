@@ -20,7 +20,7 @@ get_header('clayglass');
 
 		?>
 
-		<section class="clayglass-callout"> 
+		<!-- <section class="clayglass-callout"> 
 
 			<div class="row">
 
@@ -118,7 +118,7 @@ get_header('clayglass');
 			</div>
 			
 
-		</section>
+		</section> -->
 
 
 	<?php 
