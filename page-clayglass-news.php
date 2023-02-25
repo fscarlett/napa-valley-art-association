@@ -34,14 +34,11 @@ get_header('clayglass');
 
 					$aanv_blog_args = array(
 						'post_type'   		=> 'post',
-						'category_name' 	=> 'clay-glass',
+						'category_name' 	=> 'clay-glass', 
 				        'order'           => 'DESC',
 				        'posts_per_page'  => '60'
 				        );
 
-							$args = array(
-								'post_type'   => 'post'
-							);
 
 							$date6monthsago = strtotime('-12 months'); // yes its not 6 months now
 
