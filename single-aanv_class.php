@@ -15,10 +15,12 @@ get_header('clayglass');
 			the_post();  
 		?>
 
+		<h1><?php the_title(); ?></h1>
+
 		<div class="event-info-wrapper">
-			<span class="single-event-date"><?php the_field('date'); ?> </span>
-			<span class="single-event-time"><?php the_field('time'); ?> </span>
-			<span class="single-event-location"><?php the_field('location'); ?> </span>
+			<p class="single-event-date">Level of expertise: <?php the_field('level_of_expertise'); ?> </p>
+			<p class="single-event-time">Age Range: <?php the_field('age_range'); ?> </p>
+			<p class="single-event-location">What to bring: <?php the_field('what_to_bring'); ?> </p>
 		</div>
 
 
