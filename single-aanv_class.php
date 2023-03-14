@@ -20,12 +20,33 @@ get_header('clayglass');
 		<div class="event-info-wrapper">
 			<p class="single-event-date">Level of expertise: <?php the_field('level_of_expertise'); ?> </p>
 			<p class="single-event-time">Age Range: <?php the_field('age_range'); ?> </p>
+		</div>
+
+		<div class="aanv-content-wrapper">
+			<div class="aanv-class-featured-image-wrapper" style="max-width: 500px;">
+
+			<?php 
+			if (has_post_thumbnail()) {  the_post_thumbnail(); }
+
+			 ?>
+			</div>
+
+
+			 <div class="entry-content">
+			 	<?php the_content(); ?>
+			 </div>
+			
+
+		</div>
+		<div class="aanv_class-extras-wrapper">
 			<p class="single-event-location">What to bring: <?php the_field('what_to_bring'); ?> </p>
+			
 		</div>
 
 
+
 		<?php 
-			get_template_part( 'template-parts/content', get_post_type() );
+			// get_template_part( 'template-parts/content', get_post_type() );
 
 			the_post_navigation();
 
