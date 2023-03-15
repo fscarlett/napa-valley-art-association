@@ -13,6 +13,8 @@ get_header('clayglass');
 		<?php
 		while ( have_posts() ) :
 			the_post();  
+
+			$parental = get_field('parental_consent_required');
 		?>
 
 		<h1><?php the_title(); ?></h1>
@@ -20,6 +22,14 @@ get_header('clayglass');
 		<div class="event-info-wrapper">
 			<p class="single-event-date">Level of expertise: <?php the_field('level_of_expertise'); ?> </p>
 			<p class="single-event-time">Age Range: <?php the_field('age_range'); ?> </p>
+
+			<?php if($parental) {
+			 ?>
+
+			<p>Parental consent required</p>
+
+			<?php } ?>
+			
 		</div>
 
 		<div class="aanv-content-wrapper">
