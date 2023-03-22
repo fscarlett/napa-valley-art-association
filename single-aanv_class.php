@@ -49,7 +49,16 @@ get_header('clayglass');
 
 		</div>
 		<div class="aanv_class-extras-wrapper">
+			<label>Instructor Bio</label>
+			<p class="aanv_class_instructor_bio">
+				<?php the_field('instructor_bio') ?>
+			</p>
 			<p class="single-event-location">What to bring: <?php the_field('what_to_bring'); ?> </p>
+			<label>Other Requirements</label>
+
+			<p class="aanv_class_instructor_bio">
+				<?php the_field('other_requirements') ?>
+			</p>
 			
 		</div>
 
