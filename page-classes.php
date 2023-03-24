@@ -4,7 +4,7 @@
  * @package aanv
  */
 
-get_header();
+get_header('clayglass');
 ?>
 
 	<div id="primary" class="content-area container">
