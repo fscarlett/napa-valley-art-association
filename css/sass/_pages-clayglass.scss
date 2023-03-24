@@ -41,3 +41,17 @@
 		}
 	}
 } 
+
+/* ---------------- single class ---------------- */
+.aanv_class-extras-wrapper .aanv_class-label {
+	font-weight: bold;
+}
+
+
+/* --------------- classes list page ----------------- */
+.aanv-class-item-card {
+	min-height:100px;
+	display: flex;
+	flex-direction: row;
+	padding: 5px;
+}

@@ -27,7 +27,7 @@ a {
   margin-bottom: 15px; }
   .button:hover {
     background: #5BC0DE; }
-  
+
 #mepr_loginform .submit input {
   padding: 15px 25px;
   font-size: 2rem;
@@ -470,6 +470,17 @@ body.page-template-page-clayglass-home {
       .clayglass-callout .clayglass-callout-card p span {
         font-weight: bold;
         font-style: italic; }
+
+/* ---------------- single class ---------------- */
+.aanv_class-extras-wrapper .aanv_class-label {
+  font-weight: bold; }
+
+/* --------------- classes list page ----------------- */
+.aanv-class-item-card {
+  min-height: 100px;
+  display: flex;
+  flex-direction: row;
+  padding: 5px; }
 
 .aanv-blog-img-wrapper {
   width: 100%;

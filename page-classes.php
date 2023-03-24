@@ -75,21 +75,21 @@ get_header();
 				          ?>
 
 				          	
-				          	<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-												<a href="<?php the_permalink(); ?>">
-													<div class="aanv-blog-img-wrapper" style="background-image: url(<?php the_post_thumbnail_url(); ?>)">
-															<?php // the_post_thumbnail('medium'); ?>
-													</div>
-												</a>
-											<div class="aanv-blog-copy-card">
-												 
-												<a href="<?php the_permalink(); ?>" ><h3><?php the_title(); ?></h3></a>
-												<p class="aanv-blog-meta">Posted by <?php the_author(); ?> on <?php  $post_date = get_the_date( 'F j, Y' ); echo $post_date; ?></p>
-												
-
-												<?php the_excerpt(); ?>
-											</div>
+				          	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aanv-class-item-card">
+									<a href="<?php the_permalink(); ?>">
+										<div class="aanv-class-img-wrapper" style="background-image: url(<?php the_post_thumbnail_url(); ?>)">
+												<?php // the_post_thumbnail('medium'); ?>
 										</div>
+									</a>
+								<div class="aanv-class-copy-card">
+									 
+									<a href="<?php the_permalink(); ?>" ><h3><?php the_title(); ?></h3></a>
+									<p class="aanv-class-meta">Posted by <?php the_author(); ?> on <?php  $post_date = get_the_date( 'F j, Y' ); echo $post_date; ?></p>
+									
+
+									<?php the_excerpt(); ?>
+								</div>
+							</div>
 
 									<?php endif; // date conditional ?>
 
