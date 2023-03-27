@@ -84,7 +84,6 @@ get_header('clayglass');
 								<div class="aanv-class-copy-card">
 									 
 									<a href="<?php the_permalink(); ?>" ><h3><?php the_title(); ?></h3></a>
-									<p class="aanv-class-meta">Posted by <?php the_author(); ?> on <?php  $post_date = get_the_date( 'F j, Y' ); echo $post_date; ?></p>
 									
 
 									<?php the_excerpt(); ?>
