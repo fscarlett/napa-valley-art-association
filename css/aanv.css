@@ -482,8 +482,12 @@ body.page-template-page-clayglass-home {
   flex-direction: row;
   padding: 5px; }
 
+.aanv-class-item-card a {
+  display: block;
+  width: 30%; }
+
 .aanv-class-img-wrapper {
-  width: 50%;
+  width: 100%;
   min-height: 200px;
   background-position: center;
   background-repeat: no-repeat;
@@ -495,6 +499,11 @@ body.page-template-page-clayglass-home {
   @media (max-width: 767px) {
     .aanv-class-img-wrapper {
       height: 90vw; } }
+
+.aanv-class-copy-card {
+  width: 65%;
+  height: 100%;
+  padding: 10px; }
 
 .aanv-blog-img-wrapper {
   width: 100%;

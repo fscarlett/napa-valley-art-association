@@ -32,7 +32,7 @@ get_header('clayglass');
 		?>
 
 			<section class="aanv-blog-section">
-				          <div class="row">
+				          <div >
 				
 				<?php 
 
@@ -75,7 +75,7 @@ get_header('clayglass');
 				          ?>
 
 				          	
-				          	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 aanv-class-item-card">
+				          	<div class="aanv-class-item-card">
 									<a href="<?php the_permalink(); ?>">
 										<div class="aanv-class-img-wrapper" style="background-image: url(<?php the_post_thumbnail_url(); ?>)">
 												<?php // the_post_thumbnail('medium'); ?>
