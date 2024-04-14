@@ -64,9 +64,11 @@ get_header();
 
           $avatar = get_field('listed_image');
 
-            if ( !$avatar ) {
-              $avatar = site_url() . '/wp-content/uploads/2019/08/aanv-member-thumb2.png';
-            }
+            // if ( !$avatar ) {
+            //   $avatar = site_url() . '/wp-content/uploads/2019/08/aanv-member-thumb2.png';
+            // }
+
+            if ( $avatar ) {
 
           ?>
 
@@ -78,6 +80,7 @@ get_header();
           </div>
           
         <?php
+            } // endif for has avatar  
         } // endwhile for artists
 
       } else {
