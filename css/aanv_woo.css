@@ -1,0 +1,10 @@
+
+
+body.woocommerce-page form.woocommerce-checkout .col2-set .col-1,
+body.woocommerce-page form.woocommerce-checkout .col2-set .col-2 {
+	max-width: 100%;
+}
+
+body.woocommerce-page form.woocommerce-checkout h3 {
+	color: #33D;
+}
