@@ -39,7 +39,7 @@
 
 				<a href="<?php echo esc_url( site_url( '/art-center-home/' ) ); ?>"><img src="<?php site_url(); ?>/wp-content/uploads/2019/06/ACNV-Logo-FINAL.png" alt=""></a>
 				<a href="<?php echo esc_url( site_url( '/open-studios-home/' ) ); ?>"><img src="<?php site_url(); ?>/wp-content/uploads/2020/01/OSNV-Logo-FINAL2-CMYK-Transparent-bkgd-300.png" alt=""></a>
-				<a href="<?php echo esc_url( site_url( '/clay-glass-home/' ) ); ?>"><img src="<?php site_url(); ?>/wp-content/uploads/2023/02/Clay_Glass_Center_Logo.jpg" alt=""></a>
+				<!-- <a href="<?php  //echo esc_url( site_url( '/clay-glass-home/' ) ); ?>"><img src="<?php // site_url(); ?>/wp-content/uploads/2023/02/Clay_Glass_Center_Logo.jpg" alt=""></a> -->
 			</div>
 		</div>
 
