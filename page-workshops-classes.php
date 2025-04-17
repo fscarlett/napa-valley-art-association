@@ -81,7 +81,7 @@ get_header();
 				        } // endwhile 
 
 				      } else {
-				         echo '<p>No posts have been found.</p>';
+				         // echo '<p>No posts have been found.</p>';
 				      }; 
 
 				      wp_reset_postdata();
