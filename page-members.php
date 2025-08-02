@@ -51,7 +51,15 @@ get_header();
         'post_type'       => 'aanv_profile',
         'orderby'     => 'title',
         'order'           => 'ASC',
-        'posts_per_page'  => '-1',
+        'posts_per_page'  => '200',
+        'meta_query' => array(
+            array(
+                'key'     => 'listed_image', 
+                'value'   => '',     
+                'compare' => '!=',                 
+                'type'    => 'CHAR', 
+            ),
+        ),
         );
 
       $aanv_profiles = new WP_Query( $aanv_profile_args );
