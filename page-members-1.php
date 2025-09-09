@@ -49,8 +49,9 @@ get_header();
 
       $aanv_profile_args = array(
         'post_type'       => 'aanv_profile',
-        'orderby'     => 'title',
+        'orderby'         => 'title',
         'order'           => 'ASC',
+        'title_range'     => 'A-G', // This is the custom variable we added
         'posts_per_page'  => '200',
         'meta_query' => array(
             array(
@@ -59,12 +60,7 @@ get_header();
                 'compare' => '!=',                 
                 'type'    => 'CHAR', 
             ),
-            array(
-                'key'     => 'title', 
-                'value'   => 'acorts',     
-                'compare' => 'LIKE',                 
-                'type'    => 'CHAR', 
-            ),
+            
         ),
         );
 
