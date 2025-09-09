@@ -294,7 +294,6 @@ button.menu-toggle {
 
 body.page-template-default,
 body.page-template-page-home,
-body.page-template-page-members,
 body.page-template-page-mediums,
 body.page-template-page-members-mediums,
 body.page-template-page-news,
@@ -584,6 +583,7 @@ body.page-template-page-open-studios-members-venues #primary {
   background-color: #ccc; }
 
 body.page-template-page-members .members,
+body.page-template-page-members-1 .members,
 body.page-template-page-mediums .members,
 body.page-template-page-members-mediums .members,
 body.page-template-page-gallery-artists .members,
@@ -597,6 +597,7 @@ body.page-template-page-open-studios-members-venues .members {
   align-items: flex-start; }
 
 body.page-template-page-members .artist-card,
+body.page-template-page-members-1 .artist-card,
 body.page-template-page-mediums .artist-card,
 body.page-template-page-members-mediums .artist-card,
 body.page-template-page-gallery-artists .artist-card,
@@ -609,6 +610,7 @@ body.page-template-page-open-studios-members-venues .artist-card {
   margin: 10px;
   text-align: center; }
   body.page-template-page-members .artist-card .photo-wrapper,
+  body.page-template-page-members-1 .artist-card .photo-wrapper,
   body.page-template-page-mediums .artist-card .photo-wrapper,
   body.page-template-page-members-mediums .artist-card .photo-wrapper,
   body.page-template-page-gallery-artists .artist-card .photo-wrapper,
@@ -620,6 +622,7 @@ body.page-template-page-open-studios-members-venues .artist-card {
     border: 2px solid #fff;
     border-radius: 4px; }
     body.page-template-page-members .artist-card .photo-wrapper img,
+    body.page-template-page-members-1 .artist-card .photo-wrapper img,
     body.page-template-page-mediums .artist-card .photo-wrapper img,
     body.page-template-page-members-mediums .artist-card .photo-wrapper img,
     body.page-template-page-gallery-artists .artist-card .photo-wrapper img,
@@ -688,3 +691,12 @@ body.single-aanv_event .single-event-location {
 body.wp-admin .mepr-checkboxes-field .mepr-checkboxes-field-row {
   margin-right: 25px;
   display: inline-block; }
+
+
+  /*extra fox*/
+body.page-template-page-members,
+body.page-template-page-members-1 {
+  background-image: none;
+  background-color: #7FC1EB;
+}
+
