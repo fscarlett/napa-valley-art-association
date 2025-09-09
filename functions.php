@@ -204,3 +204,52 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+
+// BELOW IS TO ADD ALPHA RANGE TO ARTISTS BY NAME fox sep 8 2025
+
+/**
+ * Filters WP_Query by title for a specific alphabetical range.
+ *
+ * @param string   $where The WHERE clause of the query.
+ * @param WP_Query $query The WP_Query instance.
+ * @return string The modified WHERE clause.
+ */
+function filter_title_by_alpha_range( $where, $query ) {
+    global $wpdb;
+
+    // Check for our custom 'title_range' query variable.
+    $title_range = $query->get( 'title_range' );
+
+    if ( ! empty( $title_range ) ) {
+        // Explode the range, e.g., 'C-G'.
+        $range_letters = explode( '-', $title_range );
+
+        if ( count( $range_letters ) === 2 ) {
+            $start_letter = $range_letters[0];
+            $end_letter = $range_letters[1];
+            $where .= $wpdb->prepare( " AND $wpdb->posts.post_title BETWEEN %s AND %s", $start_letter . '%', $end_letter . 'z%' );
+        }
+    }
+
+    return $where;
+}
+add_filter( 'posts_where', 'filter_title_by_alpha_range', 10, 2 );
+
+
+
+/**
+ * Adds 'title_range' to the list of recognized query variables.
+ *
+ * @param array $vars The array of query variables.
+ * @return array The filtered array of query variables.
+ */
+function add_custom_query_var( $vars ) {
+    $vars[] = 'title_range';
+    return $vars;
+}
+add_filter( 'query_vars', 'add_custom_query_var' );
+
+
+
+
+
