@@ -9,6 +9,17 @@ get_header('openstudios');
 ?>
 
 	<div id="primary" class="content-area container">
+
+		<!-- <style>
+			.metaslider.ms-theme-disjoint .rslides li .caption-wrap .caption {
+				font-size: 1.8rem;
+			}
+			.metaslider.ms-theme-disjoint .rslides li .caption-wrap {
+				height: 7rem;
+			}
+			
+		</style> -->
+
 		<main id="main" class="site-main">
 
 		<?php
