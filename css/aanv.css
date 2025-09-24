@@ -584,6 +584,8 @@ body.page-template-page-open-studios-members-venues #primary {
 
 body.page-template-page-members .members,
 body.page-template-page-members-1 .members,
+body.page-template-page-members-2 .members,
+body.page-template-page-members-3 .members,
 body.page-template-page-mediums .members,
 body.page-template-page-members-mediums .members,
 body.page-template-page-gallery-artists .members,
@@ -598,6 +600,8 @@ body.page-template-page-open-studios-members-venues .members {
 
 body.page-template-page-members .artist-card,
 body.page-template-page-members-1 .artist-card,
+body.page-template-page-members-2 .artist-card,
+body.page-template-page-members-3 .artist-card,
 body.page-template-page-mediums .artist-card,
 body.page-template-page-members-mediums .artist-card,
 body.page-template-page-gallery-artists .artist-card,
@@ -611,6 +615,8 @@ body.page-template-page-open-studios-members-venues .artist-card {
   text-align: center; }
   body.page-template-page-members .artist-card .photo-wrapper,
   body.page-template-page-members-1 .artist-card .photo-wrapper,
+  body.page-template-page-members-2 .artist-card .photo-wrapper,
+  body.page-template-page-members-3 .artist-card .photo-wrapper,
   body.page-template-page-mediums .artist-card .photo-wrapper,
   body.page-template-page-members-mediums .artist-card .photo-wrapper,
   body.page-template-page-gallery-artists .artist-card .photo-wrapper,
@@ -623,6 +629,8 @@ body.page-template-page-open-studios-members-venues .artist-card {
     border-radius: 4px; }
     body.page-template-page-members .artist-card .photo-wrapper img,
     body.page-template-page-members-1 .artist-card .photo-wrapper img,
+    body.page-template-page-members-2 .artist-card .photo-wrapper img,
+    body.page-template-page-members-3 .artist-card .photo-wrapper img,
     body.page-template-page-mediums .artist-card .photo-wrapper img,
     body.page-template-page-members-mediums .artist-card .photo-wrapper img,
     body.page-template-page-gallery-artists .artist-card .photo-wrapper img,
@@ -695,7 +703,9 @@ body.wp-admin .mepr-checkboxes-field .mepr-checkboxes-field-row {
 
   /*extra fox*/
 body.page-template-page-members,
-body.page-template-page-members-1 {
+body.page-template-page-members-1, 
+body.page-template-page-members-2, 
+body.page-template-page-members-3 {
   background-image: none;
   background-color: #7FC1EB;
 }
