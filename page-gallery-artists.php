@@ -51,6 +51,14 @@ get_header('artgallery');
         'orderby'         => 'title',
         'order'           => 'ASC',
         'posts_per_page'  => '-1',
+        'meta_query' => array(
+            array(
+                'key'     => 'art_gallery_participant', 
+                'value'   => '1',     
+                'compare' => '=',                  
+            ),
+            
+        ),
         );
 
       $aanv_profiles = new WP_Query( $aanv_profile_args );
