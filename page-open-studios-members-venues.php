@@ -50,7 +50,14 @@ get_header('openstudios');
         'posts_per_page'  => '-1',
         'meta_key'      => 'venue_number',
         'orderby'     => 'meta_value',
-        'order'       => 'ASC'
+        'order'       => 'ASC',
+        'meta_query' => array(
+            array(
+                'key'     => 'open_studios_participant', 
+                'value'   => '1',     
+                'compare' => '=',                  
+            ),     
+        ),
         );
 
       $aanv_profiles = new WP_Query( $aanv_profile_args );
