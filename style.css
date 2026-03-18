@@ -912,6 +912,20 @@ object {
 	display: inline-block;
 }
 
+
+/* file embed for download shows filename  */
+/* IN CUSTOMIZER  */
+/*
+#main .wp-block-file:not(.wp-element-button) a {
+    font-size: 1.8rem;
+} 
+
+.wp-block-file__button {
+	padding: 5px 20px;
+}
+*/
+
+
 /*--------------------------------------------------------------
 ## Captions
 --------------------------------------------------------------*/
