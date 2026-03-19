@@ -710,3 +710,22 @@ body.page-template-page-members-3 {
   background-color: #7FC1EB;
 }
 
+.aanv-footer-bar {
+  padding: 10px 20px;
+}
+
+.aanv-footer-bar ul#footer-menu {
+  background-color: #eee;
+  
+}
+
+.aanv-footer-bar ul#footer-menu li {
+  list-style-type: none;
+}
+
+.aanv-footer-bar ul#footer-menu li a {
+  color: #222;
+  
+}
+
+

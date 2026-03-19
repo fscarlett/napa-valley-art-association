@@ -49,6 +49,7 @@ if ( ! function_exists( 'aanv_setup' ) ) :
 			'menu-artcenter' => esc_html__( 'Art Center', 'aanv' ),
 			'menu-openstudios' => esc_html__( 'Open Studios', 'aanv' ),
 			'menu-clayglass' => esc_html__( 'Clay Glass', 'aanv' ),			
+			'menu-footer' => esc_html__( 'Footer', 'aanv' ),			
 		) );
 
 		/*

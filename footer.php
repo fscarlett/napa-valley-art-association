@@ -42,14 +42,24 @@
 				Support provided by the Napa County Board of Supervisors and the Napa County Arts and Culture Committee. <br> Member of the Downtown Napa Association and Yountville Arts.
 
 			</p>
+
 			
+
 		</div><!-- .site-info -->
+		<div class="aanv-footer-bar">
+			<?php
+			wp_nav_menu( array(
+				'theme_location' => 'menu-footer',
+				'menu_id'        => 'footer-menu',
+			) );
+			?>
+		</div>
 	</footer><!-- #colophon -->
 
 	<?php if ( !is_user_logged_in() ) {  ?>
 
 		<div class="login-button-container">
-			<a href="<?php echo site_url(); ?>/login">Members Login Here</a>
+			<a href="<?php echo site_url(); ?>/login">Members Login Here</a> 
 		</div>
 
 	<?php } ?>
