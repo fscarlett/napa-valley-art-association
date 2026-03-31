@@ -146,6 +146,7 @@ function aanv_scripts() {
 		/* custom css */
 	wp_enqueue_style( 'project-style', get_template_directory_uri() . '/css/aanv.css', array(), null, 'all' );
 	wp_enqueue_style( 'woo-aanv-style', get_template_directory_uri() . '/css/aanv_woo.css', array(), null, 'all' );
+	wp_enqueue_style( 'overrides-aanv-style', get_template_directory_uri() . '/css/overrides.css', array(), null, 'all' );
 
 	/* google font */
 	wp_enqueue_style( 'gfont', '//fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i|Open+Sans:400,400i,700,700i' );
