@@ -82,24 +82,24 @@ function aanv_post_types() {
 
   //register Class post type
   $aanv_class_labels = array(
-    'name'                => 'Classs',
+    'name'                => 'Classes',
     'singular_name'       => 'Class',
-    'menu_name'           => 'Classs',
+    'menu_name'           => 'Classes',
     'name_admin_bar'      => 'Class',
     'add_new'             => 'Add New',
     'add_new_item'        => 'Add New Class',
     'new_item'            => 'New Class',
     'edit_item'           => 'Edit Class',
     'view_item'           => 'View Class',
-    'all_items'           => 'All Classs',
-    'search_items'        => 'Search For Classs',
-    'parent_item_colon'   => 'Parent Classs:',
+    'all_items'           => 'All Classes',
+    'search_items'        => 'Search For Classes',
+    'parent_item_colon'   => 'Parent Classes:',
     'not_found'           => 'No Class found.',
     'not_found_in_trash'  => 'No Class found in trash.',
     );
   $aanv_class_args = array(
     'labels'              => $aanv_class_labels,
-    'description'         => 'Classs',
+    'description'         => 'Classes',
     'public'              => true,
     'publicly_queryable'  => true,
     'show_ui'             => true,
