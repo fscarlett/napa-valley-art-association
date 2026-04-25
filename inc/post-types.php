@@ -40,6 +40,45 @@ function aanv_post_types() {
   register_post_type( 'aanv_profile', $profile_args );
 
 
+
+// ========== register Sponsor post type ===========
+  $sponsor_labels = array(
+    'name'                => 'Sponsors',
+    'singular_name'       => 'Sponsor',
+    'menu_name'           => 'Sponsors',
+    'name_admin_bar'      => 'Sponsor',
+    'add_new'             => 'Add New',
+    'add_new_item'        => 'Add New Sponsor',
+    'new_item'            => 'New Sponsor',
+    'edit_item'           => 'Edit Sponsor',
+    'view_item'           => 'View Sponsor',
+    'all_items'           => 'All Sponsors',
+    'search_items'        => 'Search For Sponsors',
+    'parent_item_colon'   => 'Parent Sponsors:',
+    'not_found'           => 'No Sponsor found.',
+    'not_found_in_trash'  => 'No Sponsor found in trash.',
+    );
+  $sponsor_args = array(
+    'labels'              => $sponsor_labels,
+    'description'         => 'Sponsors',
+    'public'              => true,
+    'publicly_queryable'  => true,
+    'show_ui'             => true,
+    'query_var'           => true,
+    'rewrite'             => array( 'slug' => 'sponsor' ),
+    'capability_type'     => 'post',
+    'exclude_from_search' => true,
+    'has_archive'         => true,
+    'hierarchical'        => false,
+    'menu_position'       => null,
+    'supports'            => array( 'title', 'author', 'page-attributes' ),
+    'menu_icon'           => 'dashicons-beer',
+    );
+
+  register_post_type( 'aanv_sponsor', $sponsor_args );
+
+
+
 //register Event post type
   $event_labels = array(
     'name'                => 'Events',
