@@ -6,3 +6,16 @@ body.page-id-10051 main h1 {
 	margin-bottom: 50px;
 
 }
+
+body.page-id-10173 {
+	/*= open studios supporters ==*/
+
+}
+
+body.page-template-page-openstudios-supporters {
+  background: #E5843D url("../images/nvaa-bg-openstudios.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: scroll; 
+}
