@@ -59,7 +59,7 @@
 	<?php if ( !is_user_logged_in() ) {  ?>
 
 		<div class="login-button-container">
-			<a href="<?php echo site_url(); ?>/login">Members Login Here</a> 
+			<a href="<?php echo site_url('/prevention'); ?>">Members Login Here</a>
 		</div>
 
 	<?php } ?>
