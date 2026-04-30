@@ -84,7 +84,7 @@ get_header('openstudios');
 	</div><!-- #primary -->
 
 <?php
-
+ 
 get_footer();
 
 
