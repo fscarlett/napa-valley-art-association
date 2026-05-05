@@ -18,7 +18,12 @@ get_header('openstudios');
 				the_post();
 
 				// get_template_part( 'template-parts/content', 'page' );
+				?>
 
+				<h1><?php the_title(); ?></h1>
+
+
+				<?php
 				the_content();
 				?>
 
@@ -84,7 +89,7 @@ get_header('openstudios');
 	</div><!-- #primary -->
 
 <?php
- 
+
 get_footer();
 
 
