@@ -75,7 +75,8 @@ function aanv_post_types() {
     'menu_icon'           => 'dashicons-beer',
     );
 
-  register_post_type( 'aanv_sponsor', $sponsor_args );
+// SPONSOR POST TYPE DISABLED, USING ACF REPEATER INSTEAD
+ // register_post_type( 'aanv_sponsor', $sponsor_args );
 
 
 
