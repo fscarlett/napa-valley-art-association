@@ -48,7 +48,8 @@ get_header('artgallery');
 
       $aanv_profile_args = array(
         'post_type'       => 'aanv_profile',
-        'orderby'         => 'title',
+        'meta_key'        => 'aanv_sortable_name',
+        'orderby'         => 'meta_value',
         'order'           => 'ASC',
         'posts_per_page'  => '-1',
         'meta_query' => array(
@@ -61,6 +62,7 @@ get_header('artgallery');
         ),
         );
 
+ 
       $aanv_profiles = new WP_Query( $aanv_profile_args );
 
       if ( $aanv_profiles->have_posts() ) {
